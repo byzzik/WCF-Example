@@ -20,6 +20,24 @@ namespace GettingStartedClient.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Add", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/AddResponse")]
         System.Threading.Tasks.Task<double> AddAsync(double n1, double n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Subtract", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/SubtractResponse")]
+        double Subtract(double n1, double n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Subtract", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/SubtractResponse")]
+        System.Threading.Tasks.Task<double> SubtractAsync(double n1, double n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Multiply", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/MultiplyResponse")]
+        double Multiply(double n1, double n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Multiply", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/MultiplyResponse")]
+        System.Threading.Tasks.Task<double> MultiplyAsync(double n1, double n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Divide", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/DivideResponse")]
+        double Divide(double n1, double n2);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://Microsoft.ServiceModel.Samples/ICalculator/Divide", ReplyAction="http://Microsoft.ServiceModel.Samples/ICalculator/DivideResponse")]
+        System.Threading.Tasks.Task<double> DivideAsync(double n1, double n2);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -55,6 +73,30 @@ namespace GettingStartedClient.ServiceReference1 {
         
         public System.Threading.Tasks.Task<double> AddAsync(double n1, double n2) {
             return base.Channel.AddAsync(n1, n2);
+        }
+        
+        public double Subtract(double n1, double n2) {
+            return base.Channel.Subtract(n1, n2);
+        }
+        
+        public System.Threading.Tasks.Task<double> SubtractAsync(double n1, double n2) {
+            return base.Channel.SubtractAsync(n1, n2);
+        }
+        
+        public double Multiply(double n1, double n2) {
+            return base.Channel.Multiply(n1, n2);
+        }
+        
+        public System.Threading.Tasks.Task<double> MultiplyAsync(double n1, double n2) {
+            return base.Channel.MultiplyAsync(n1, n2);
+        }
+        
+        public double Divide(double n1, double n2) {
+            return base.Channel.Divide(n1, n2);
+        }
+        
+        public System.Threading.Tasks.Task<double> DivideAsync(double n1, double n2) {
+            return base.Channel.DivideAsync(n1, n2);
         }
     }
 }
