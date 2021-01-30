@@ -2,7 +2,7 @@
 {
     using System.ServiceModel;
 
-    [ServiceContract]
+    [ServiceContract(Namespace = "http://Microsoft.ServiceModel.Samples")]
     public interface ICalculator
     {
         [OperationContract]
