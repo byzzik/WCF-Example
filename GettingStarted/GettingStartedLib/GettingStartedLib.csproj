@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="ICalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Calculator.cs" />
+    <Compile Include="CalculatorService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
