@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "Getti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{1054E7D4-27C6-4B5D-957C-99797B18D119}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedLib.Tests", "GettingStartedLib.Tests\GettingStartedLib.Tests.csproj", "{BF3B890A-1FAC-480E-8514-8E1D562F60EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1054E7D4-27C6-4B5D-957C-99797B18D119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1054E7D4-27C6-4B5D-957C-99797B18D119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1054E7D4-27C6-4B5D-957C-99797B18D119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3B890A-1FAC-480E-8514-8E1D562F60EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3B890A-1FAC-480E-8514-8E1D562F60EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3B890A-1FAC-480E-8514-8E1D562F60EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3B890A-1FAC-480E-8514-8E1D562F60EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
